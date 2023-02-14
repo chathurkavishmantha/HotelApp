@@ -11,14 +11,7 @@ const OurDestinations = () => {
 const [data, setData] = useState(DestinationData);
 
 const setValues = (index = null) =>{
-    // console.log(DestinationData);
-   const description = null;
-   const island = null;
-   const img1 = null;
-   var value = null;
    DestinationData.forEach(item =>{
-    // console.log("here");
-    // console.log(item.id);
     if(item.id == index){
         
         setData(item);        

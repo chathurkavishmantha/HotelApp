@@ -38,3 +38,26 @@ export const DestinationData = [
     },
 
 ];
+
+export const  Experiences = [
+    {
+        id:0,
+        img: "https://www.hilton.com/im/en/SJDLCHH/3254503/family-pool.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=36&rw=1536&rh=1002",
+        para:"Book Ahead & Save Up to 17%"
+    },
+    {
+        id:1,
+        img: "https://www.hilton.com/im/en/NoHotel/15196711/shutterstock-269455079.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=36&rw=1536&rh=1002",
+        para:"Multiply Your Points"
+    },
+    {
+        id:2,
+        img: "https://www.hilton.com/im/en/NoHotel/13984175/cheers-5000x3333.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=36&rw=1536&rh=1002",
+        para:"Free Bonus Points at New Hotels"
+    },
+    {
+        id:3,
+        img: "https://www.hilton.com/im/en/NoHotel/16156655/shutterstock-673616299.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=36&rw=1536&rh=1002",
+        para:"Park & Stay with Hilton"
+    },
+];

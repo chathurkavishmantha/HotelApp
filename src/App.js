@@ -1,3 +1,4 @@
+import Experience from './components/Experience/Experience';
 import Navbar from './components/Navbar/Navbar';
 import OurDestinations from './components/OurDestinations/OurDestinations';
 import Slider from './components/Slider/Slider';
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Slider />
       <OurDestinations />
+      <Experience />
     </div>
   );
 }
