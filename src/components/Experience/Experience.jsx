@@ -22,8 +22,8 @@ const Experience = () => {
                 src={item.img}
                 alt=""
               />
-              <div className="bg-gradient-to-t from-[#0000007a] text-[#FFFFFF]  font-bold uppercase  py-5 text-2xl absolute left-0 right-0 top-0 text-center ">
-                <p className="mt-[210px]">{item.para}</p>
+              <div className="bg-gradient-to-t from-[#000000e7] text-[#FFFFFF]  font-bold uppercase  py-5 text-2xl absolute left-0 right-0 top-0 text-center ">
+                <p className="mt-[210px] tracking-[0.3px]">{item.para}</p>
               </div>
             </div>
           );
