@@ -60,4 +60,16 @@ export const  Experiences = [
         img: "https://www.hilton.com/im/en/NoHotel/16156655/shutterstock-673616299.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=36&rw=1536&rh=1002",
         para:"Park & Stay with Hilton"
     },
+
+    {
+        id:4,
+        img: "https://www.hilton.com/im/en/NoHotel/14530273/f-por-157-heroimage-crop3-2.jpg?impolicy=crop&cw=1500&ch=977&gravity=NorthWest&xposition=0&yposition=11&rw=1536&rh=1002",
+        para:"Make Your Stay Even Sweeter"
+    },
+
+    {
+        id:5,
+        img: "https://www.hilton.com/im/en/MultiHotel/7637864/african-american-father-and-daughter-having-breakfast.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=37&rw=1536&rh=1002",
+        para:"Breakfast Included Package"
+    },
 ];

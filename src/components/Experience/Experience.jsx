@@ -18,7 +18,7 @@ const Experience = () => {
               className="p-8 relative w-full h-[282px] justify-center items-center "
             >
               <img
-                className="absolute  left-0 right-0 bottom-0 w-[100%] h-[100%]"
+                className="absolute  left-0 right-0 bottom-0 w-[100%]"
                 src={item.img}
                 alt=""
               />
