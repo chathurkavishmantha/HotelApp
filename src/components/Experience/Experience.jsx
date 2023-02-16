@@ -10,7 +10,7 @@ const Experience = () => {
       <div className="pr-8  py-2 text-xl">
         <p>Find the perfect stay with our exclusive deals.</p>
       </div>
-      <div className="grid grid-cols-3 gap-12 ">
+      <div className="grid grid-cols-3 gap-x-6 gap-y-16 mt-16">
         {Experiences.map((item, index) => {
           return (
             <div
@@ -22,7 +22,7 @@ const Experience = () => {
                 src={item.img}
                 alt=""
               />
-              <div className="bg-gradient-to-t from-[#000000e7] text-[#FFFFFF]  font-bold uppercase  py-5 text-[21px] absolute left-0 right-0 top-0 text-center ">
+              <div className="bg-gradient-to-t from-[#000000e7] text-[#FFFFFF]  font-bold uppercase  py-5 text-[26px] absolute left-0 right-0 top-0 text-center ">
                 <p className="mt-[210px] tracking-[0.3px]">{item.para}</p>
               </div>
             </div>
