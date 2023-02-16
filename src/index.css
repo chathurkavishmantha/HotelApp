@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 @layer base{
-  h3,a,h5{
+  h3,h5{
     font-family: "BodoniStd-BookItalic", serif ;
   }
   select{
@@ -15,6 +15,11 @@
     font-family: 'Roboto', sans-serif;
     color: #1b1b1b;
   }
+
+  .nav-items{
+    font-family: "BodoniStd-BookItalic", serif ;
+  }
+
 
 }
 .swiper {
@@ -103,3 +108,4 @@
 .css-1u9des2-indicatorSeparator{
   background-color: white !important;
 }
+
