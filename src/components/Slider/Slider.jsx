@@ -42,11 +42,11 @@ function Slider() {
                 alt=""
               />
               <div className=" absolute top-0 left-0 w-[100%] h-[100%] bg-gradient-to-t from-[#0000007a] ">
-                <div className=" container relative top-[40%]">
-                  <div className="container  text-[#fff] text-[40px] leading-11 mb-[10px] truncate text-ellipsis whitespace-nowrap ">
+                <div className=" container relative top-[42%] ">
+                  <div className="container font-PlayFair text-[#fff] text-[36px] leading-11 mb-[10px] truncate text-ellipsis whitespace-nowrap ">
                     Shangri-La Cares
                   </div>
-                  <div className="text-[#fff] text-[23px] leading-11 mb-[28px] truncate text-ellipsis whitespace-nowrap">
+                  <div className="font-Montserrat text-[#fff] text-[23px] leading-11 mb-[28px] truncate text-ellipsis whitespace-nowrap">
                     Your well-being in our care - learn more about our safety
                     standards
                   </div>
@@ -59,13 +59,12 @@ function Slider() {
                 alt=""
               />
               <div className=" absolute top-0 left-0 w-[100%] h-[100%] bg-gradient-to-t from-[#0000007a] ">
-                <div className=" container relative top-[40%]">
-                  <div className="container  text-[#fff] text-[36px] leading-11 mb-[10px] truncate text-ellipsis whitespace-nowrap ">
-                    Shangri-La Cares
+                <div className=" container relative top-[42%]">
+                  <div className="container font-PlayFair text-[#fff] text-[36px] leading-11 mb-[10px] truncate text-ellipsis whitespace-nowrap ">
+                  We Are Vaccinated
                   </div>
-                  <div className="text-[#fff] text-[20px] leading-11 mb-[28px] truncate text-ellipsis whitespace-nowrap">
-                    Your well-being in our care - learn more about our safety
-                    standards
+                  <div className="font-Montserrat text-[#fff] text-[20px] leading-11 mb-[28px] truncate text-ellipsis whitespace-nowrap">
+                  Our highly vaccinated workforce provides the safest possible environment for your next holiday.
                   </div>
                 </div>
               </div>
@@ -76,13 +75,12 @@ function Slider() {
                 alt=""
               />
               <div className=" absolute top-0 left-0 w-[100%] h-[100%] bg-gradient-to-t from-[#0000007a] ">
-                <div className=" container relative top-[40%]">
-                  <div className="container  text-[#fff] text-[36px] leading-11 mb-[10px] truncate text-ellipsis whitespace-nowrap ">
+                <div className=" container relative top-[42%]">
+                  <div className="container font-PlayFair text-[#fff] text-[36px] leading-11 mb-[10px] truncate text-ellipsis whitespace-nowrap ">
                     Shangri-La Cares
                   </div>
-                  <div className="text-[#fff] text-[20px] leading-11 mb-[28px] truncate text-ellipsis whitespace-nowrap">
-                    Your well-being in our care - learn more about our safety
-                    standards
+                  <div className="font-Montserrat text-[#fff] text-[20px] leading-11 mb-[28px] truncate text-ellipsis whitespace-nowrap">
+                  A personal tropical sanctuary set within the heart of the city
                   </div>
                 </div>
               </div>

@@ -1,5 +1,6 @@
 import Experience from './components/Experience/Experience';
 import Navbar from './components/Navbar/Navbar';
+import Offer from './components/Offer/Offer';
 import OurDestinations from './components/OurDestinations/OurDestinations';
 import Slider from './components/Slider/Slider';
 
@@ -10,6 +11,7 @@ function App() {
       <Slider />
       <OurDestinations />
       <Experience />
+      <Offer />
     </div>
   );
 }
