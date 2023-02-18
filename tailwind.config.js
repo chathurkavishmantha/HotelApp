@@ -6,7 +6,8 @@ module.exports = {
       fontFamily: {
         Montserrat: ['Montserrat'],
         BodoniModa: ['Bodoni Moda'],
-        PlayFair: ['Playfair Display']
+        PlayFair: ['Playfair Display'],
+        Roboto: ['Roboto']
       },
       boxShadow:{
         card: '1px 5px 20px #9a9a9a'

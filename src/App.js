@@ -1,4 +1,5 @@
 import Experience from './components/Experience/Experience';
+import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import Offer from './components/Offer/Offer';
 import OurDestinations from './components/OurDestinations/OurDestinations';
@@ -12,6 +13,7 @@ function App() {
       <OurDestinations />
       <Experience />
       <Offer />
+      <Footer />
     </div>
   );
 }

@@ -7,7 +7,7 @@ const Offer = () => {
        <div className="flex justify-between ">
        {Offers.map((item, index) => {
         return (          
-            <div  key={index} className="cards w-[360px] h-[450px] text-center font-Montserrat shadow-md hover:shadow-lg ">
+            <div  key={index} className="cards w-[360px] h-[450px] text-center font-Montserrat shadow-md hover:shadow-xl ">
               <img className="" src={item.img} alt="" />
               <p className="text-[#333] text-[12px] leading-[18px] mt-[4px] ">{item.heading}</p>
               <br/>
@@ -19,9 +19,6 @@ const Offer = () => {
         );
       })}
        </div>
-      <br />
-      <br />
-      <br />
     </div>
   );
 };
