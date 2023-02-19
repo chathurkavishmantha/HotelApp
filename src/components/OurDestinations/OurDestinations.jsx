@@ -20,20 +20,20 @@ const OurDestinations = () => {
   console.log(data);
 
   return (
-    <div className="w-[1170px] m-auto">
-      <div className="text-center ">
+    <div className="lg:w-[1170px] sm:w-[390px] m-auto">
+      <div className="text-center  ">
         {" "}
         {/*topic-name */}
-        <h3 className="font-BodoniModa tracking-normal text-[#7c3091] italic text-[70px]">
+        <h3 className="font-BodoniModa tracking-normal text-[#7c3091] italic lg:text-[70px] sm:text-[35px] sm:mt-[20px]">
           Our Destinations
         </h3>
       </div>
-      <div className="w-[50%] m-auto border-solid border border-gray-400 py-[19px] px-[30px] ">
+      <div className="lg:w-[50%]  sm:w-[60%] m-auto border-solid border border-gray-400 py-[19px] px-[30px] ">
         <select className="border-none border-0 w-[100%] bg-white text-[20px] italic text-[#313496]">
           {DestinationData.map((item, index) => {
             return (
               <option
-                className="w-[50%] text-[20px] font-BodoniModa"
+                className="lg:w-[50%] lg:text-[20px] sm:text-[15px] font-BodoniModa"
                 key={index}
                 onClick={() => {
                   setValues(item.id);
