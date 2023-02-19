@@ -1,5 +1,5 @@
 
-export const DestinationData = [
+export const destinationData = [
     {
         id:0,
         topic:"Cinnamon Life",
