@@ -1,5 +1,5 @@
 import React from "react";
-import { Experiences } from "../OurDestinations/DestinationData";
+import { experiences } from "../OurDestinations/DestinationData";
 
 const Experience = () => {
   return (
@@ -11,7 +11,8 @@ const Experience = () => {
         <p>Find the perfect stay with our exclusive deals.</p>
       </div>
       <div className="grid grid-cols-3 gap-x-6 gap-y-16 mt-16">
-        {Experiences.map((item, index) => {
+        {/* Display experience section details from dataset */}
+        {experiences.map((item, index) => {
           return (
             <div
               key={index}

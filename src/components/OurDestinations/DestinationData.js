@@ -39,7 +39,7 @@ export const destinationData = [
 
 ];
 
-export const  Experiences = [
+export const  experiences = [
     {
         id:0,
         img: "https://www.hilton.com/im/en/SJDLCHH/3254503/family-pool.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=36&rw=1536&rh=1002",
@@ -74,7 +74,7 @@ export const  Experiences = [
     },
 ];
 
-export const  Offers = [
+export const  offers = [
     {
         img: "https://sitecore-cd-imgr.shangri-la.com/MediaFiles/3/2/9/%7B32926B10-8EE8-4639-B2DD-AC55F70CB76D%7Dslcwithbreakfast.jpg?w=360&h=175&mode=crop&quality=100&scale=both",
         heading: "Rooms & Suites",

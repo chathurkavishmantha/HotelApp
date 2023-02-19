@@ -20,15 +20,15 @@ const NavItems = () => {
                 <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
                   <li class="">
                     <a
-                      class="bg-white hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
+                      class="bg-white font-PlayFair text-[16px] hover:bg-white py-4 px-4 block whitespace-no-wrap pl-[185px]"
                       href="#"
                     >
-                      
+                      About The Hotel
                     </a>
                   </li>
                   <li class="">
                     <a
-                      class="bg-white hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
+                      class="bg-white text-[13px] font-Roboto capitalize hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
                       href="#"
                     >
                       Overview
@@ -36,7 +36,7 @@ const NavItems = () => {
                   </li>
                   <li class="">
                     <a
-                      class="bg-white hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
+                      class="bg-white text-[13px] font-Roboto capitalize hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
                       href="#"
                     >
                       Explore Colombo
@@ -44,7 +44,7 @@ const NavItems = () => {
                   </li>
                   <li class="">
                     <a
-                      class="bg-white hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
+                      class="bg-white text-[13px] font-Roboto capitalize hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
                       href="#"
                     >
                       Searvices & Facilities
@@ -52,18 +52,10 @@ const NavItems = () => {
                   </li>
                   <li class="">
                     <a
-                      class="bg-white hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
+                      class="bg-white text-[13px] font-Roboto capitalize hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
                       href="#"
                     >
                       Map & Directions
-                    </a>
-                  </li>
-                  <li class="">
-                    <a
-                      class="bg-white hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
-                      href="#"
-                    >
-                      Overview
                     </a>
                   </li>
                 </ul>
@@ -82,10 +74,42 @@ const NavItems = () => {
                 <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
                   <li class="">
                     <a
-                      class="bg-white hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
+                      class="bg-white font-PlayFair text-[16px] hover:bg-white py-4 block whitespace-no-wrap pl-[185px]"
                       href="#"
                     >
-                      two
+                      Rooms
+                    </a>
+                  </li>
+                  <li class="">
+                    <a
+                      class="bg-white text-[13px] font-Roboto capitalize hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
+                      href="#"
+                    >
+                      Deluxe Lake View
+                    </a>
+                  </li>
+                  <li class="">
+                    <a
+                      class="bg-white text-[13px] font-Roboto capitalize hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
+                      href="#"
+                    >
+                      Deluxe Ocean View
+                    </a>
+                  </li>
+                  <li class="">
+                    <a
+                      class="bg-white text-[13px] font-Roboto capitalize hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
+                      href="#"
+                    >
+                      Premier Balcony
+                    </a>
+                  </li>
+                  <li class="">
+                    <a
+                      class="bg-white text-[13px] font-Roboto capitalize hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
+                      href="#"
+                    >
+                      Premier Ocean View
                     </a>
                   </li>
                 </ul>
@@ -101,7 +125,7 @@ const NavItems = () => {
                     <IoChevronDown className=" inline-block ml-[4px] text-[18px]" />
                   </a>
                 </li>
-                <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
+                {/* <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
                   <li class="">
                     <a
                       class="bg-white hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
@@ -110,7 +134,7 @@ const NavItems = () => {
                       two
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
 
               <div className="group">
@@ -123,7 +147,7 @@ const NavItems = () => {
                     <IoChevronDown className=" inline-block ml-[4px] text-[18px]" />
                   </a>
                 </li>
-                <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
+                {/* <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
                   <li class="">
                     <a
                       class="bg-white hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
@@ -132,7 +156,7 @@ const NavItems = () => {
                       two
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
 
               <div className="group">
@@ -145,7 +169,7 @@ const NavItems = () => {
                     <IoChevronDown className=" inline-block ml-[4px] text-[18px]" />
                   </a>
                 </li>
-                <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
+                {/* <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
                   <li class="">
                     <a
                       class="bg-white hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
@@ -154,7 +178,7 @@ const NavItems = () => {
                       two
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
 
               <div className="group">
@@ -167,7 +191,7 @@ const NavItems = () => {
                     <IoChevronDown className=" inline-block ml-[4px] text-[18px]" />
                   </a>
                 </li>
-                <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
+                {/* <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
                   <li class="">
                     <a
                       class="bg-white hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
@@ -176,7 +200,7 @@ const NavItems = () => {
                       two
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
 
               <div className="group">
@@ -189,7 +213,7 @@ const NavItems = () => {
                     <IoChevronDown className=" inline-block ml-[4px] text-[18px]" />
                   </a>
                 </li>
-                <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
+                {/* <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
                   <li class="">
                     <a
                       class="bg-white hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
@@ -198,7 +222,7 @@ const NavItems = () => {
                       two
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
 
               <div className="group">
@@ -211,7 +235,7 @@ const NavItems = () => {
                     <IoChevronDown className=" inline-block ml-[4px] text-[18px]" />
                   </a>
                 </li>
-                <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
+                {/* <ul class="z-10 absolute hidden text-gray-700  group-hover:block w-[100%] left-0">
                   <li class="">
                     <a
                       class="bg-white hover:bg-white py-2 px-4 block whitespace-no-wrap pl-[185px]"
@@ -220,7 +244,7 @@ const NavItems = () => {
                       two
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>

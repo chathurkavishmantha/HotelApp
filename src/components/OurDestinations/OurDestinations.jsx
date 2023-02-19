@@ -2,14 +2,11 @@ import React, { useState } from "react";
 
 import { destinationData } from "./DestinationData";
 
-console.log(destinationData[0].id);
-
 const OurDestinations = () => {
-  
   const [data, setData] = useState(destinationData);
 
-   const setValues = (obj) => {
-    console.log( parseInt(obj.target.value))
+  const setValues = (obj) => { // set destination values from data set
+    console.log(parseInt(obj.target.value));
     destinationData.map((item) => {
       if (item.id == obj.target.value) {
         setData(item);
@@ -17,20 +14,20 @@ const OurDestinations = () => {
     });
   };
 
-  console.log(data);
-
   return (
     <div className="lg:w-[1170px] sm:w-[390px] m-auto">
       <div className="text-center  ">
-        {" "}
-        {/*topic-name */}
         <h3 className="font-BodoniModa tracking-normal text-[#7c3091] italic lg:text-[70px] sm:text-[35px] sm:mt-[20px]">
           Our Destinations
         </h3>
       </div>
+      {/* select and display destination details */}
       <div className="lg:w-[50%]  sm:w-[90%] m-auto border-solid border border-gray-400 py-[19px] px-[30px] ">
-        <select className="border-none border-0 w-[100%] bg-white text-[20px] italic text-[#313496]" onChange={setValues}>
-          {destinationData.map((item, index) => {
+        <select
+          className="border-none border-0 w-[100%] bg-white text-[20px] italic text-[#313496]"
+          onChange={setValues}
+        >
+          {destinationData.map((item, index) => { 
             return (
               <option
                 className="lg:w-[50%] lg:text-[20px] sm:text-[15px] font-BodoniModa"

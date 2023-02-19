@@ -1,27 +1,34 @@
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import upImg from "../../imgs/up.png";
 import {
   faFacebookF,
   faTwitter,
   faInstagram,
   faYoutube,
-  faLinkedinIn
+  faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
-  
   return (
     <>
       <div className="w-full -top-[99px] mt-[100px]">
         <div className="footer absolute w-[100%] h-[144px]  bg-gradient-to-b from-[#fffdfd00] to-[#e6dff5]  bg-cover">
-                <img className='w-full' src="https://www.cinnamonhotels.com/themes/cinnamon/images/footer-bg.png" alt="" />
-            </div>
+          <img
+            className="w-full"
+            src="https://www.cinnamonhotels.com/themes/cinnamon/images/footer-bg.png"
+            alt=""
+          />
+        </div>
         <a className="font-BodoniModa absolute  flex right-[10%]" href="">
-                <img className='w-[150px] h-[150px] rounded-[50%] ' src="https://www.cinnamonhotels.com/themes/cinnamon/images/stay-round.png" alt="" />
-               
-                <p className="absolute text-[#ffff] font-semibold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">Scroll Up</p>
-            </a>
+          <img
+            className="w-[150px] h-[150px] rounded-[50%] "
+            src="https://www.cinnamonhotels.com/themes/cinnamon/images/stay-round.png"
+            alt=""
+          />
+
+          <p className="absolute text-[#ffff] font-semibold top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+            Scroll Up
+          </p>
+        </a>
         <div className="grid grid-cols-4 w-[1180px] m-auto pt-[100px]">
           <div className="">
             <h4 className="text-[#77328b] text-[24px] font-BodoniModa font-600 mt-[50px]">
