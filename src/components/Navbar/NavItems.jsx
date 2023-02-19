@@ -3,7 +3,7 @@ import { IoChevronDown } from "react-icons/io5";
 
 const NavItems = () => {
   return (
-    <div className=" flex bg-[#333] ">
+    <div className=" lg:flex bg-[#333] sm:hidden ">
         <nav className=" uppercase  font-bold justify-between items-center  w-[1200px] m-auto text-[14px] text-[#fff] ">
           <div className=" justify-between ">
             <div className="nav-items font-Montserrat  flex ">
